@@ -1,0 +1,11 @@
+npm init
+npm install express
+node index.js
+npm i nodemon --save-dev
+
+// Thêm
+  "scripts": {
+    "start": "nodemon index.js",   // For inspect   "start": "nodemon --inspect index.js",
+trong package.json
+
+npm start
